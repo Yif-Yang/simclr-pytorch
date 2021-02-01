@@ -11,7 +11,7 @@ from PIL import Image
 if 'DATA_ROOT' in os.environ:
     DATA_ROOT = os.environ['DATA_ROOT']
 else:
-    DATA_ROOT = './data'
+    DATA_ROOT = '../Data'
 
 IMAGENET_PATH = './data/imagenet/raw-data'
 
