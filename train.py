@@ -45,7 +45,7 @@ def add_learner_params(parser):
         help='dp: DataParallel, ddp: DistributedDataParallel',
         choices=['dp', 'ddp'],
     )
-    parser.add_argument('--dist_address', default='127.0.0.1:1234', type=str,
+    parser.add_argument('--dist_address', default='127.0.0.1:11233', type=str,
         help='the address and a port of the main node in the <address>:<port> format'
     )
     parser.add_argument('--node_rank', default=0, type=int,
